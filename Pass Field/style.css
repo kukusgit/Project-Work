@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40A2e3;
+}
+
+.content{
+    height: 280px;
+    width: 70%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #bbe2ec;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 60px;
+    font-weight: 600;
+    color: #000000;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    margin-bottom: 80px;
+    border: none;
+    background-color: #40A2e3;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+
+.content .pass{
+    height: 50px;
+    width: 60%;
+    margin-bottom: 80px;
+    font-size: 20px;
+    padding-left: 15px;
+    background-color:#fff6e9 ;
+    border: none;
+    border-radius: 5px;
+}
