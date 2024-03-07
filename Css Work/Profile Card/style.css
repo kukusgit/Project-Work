@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.outerbox {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.innerbox {
+    height: 100px;
+    width: 250px;
+    background-color: blue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px; 
+}
+
+.pic {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 65px;
+    border: 3px solid blue;
+    box-shadow: inset 0px 0px 0px 3px white;
+    background-image: url(img.png);
+    background-size: 200px;
+    background-position-y: -50px;
+    background-position-x: -10px;
+}
+
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    top: -80px;
+    left: 30px;
+}
+
+.detail{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+/* Use correct selector for Facebook icon */
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 30px; /* Adjust the size according to your preference */
+    color:antiquewhite;
+    position: relative;
+    bottom: 70px;
+}
+.icons i.bx{
+    color: antiquewhite;
+    border-radius:50%;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.icons i.bxl-facebook{
+    border: solid 4px rgba(0, 119, 255);
+}
+.icons i.bxl-instagram{
+    border: solid 4px rgba(253,21,52);
+}
+.icons i.bxl-xing{
+    border: solid 4px rgba(0,0,0);
+}
+.icons i.bxl-linkedin-square{
+    border: solid 4px rgba(0, 162, 255);
+}
+.icons i.bx:hover{
+    border-width: 6px;
+}
+
+.buttons{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    bottom:60px;
+    left: 25px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+.buttons:hover{
+    background-color: rgb(0, 102, 255);
+    font-size: 15px;
+}
